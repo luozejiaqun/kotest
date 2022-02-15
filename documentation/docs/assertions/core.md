@@ -171,6 +171,9 @@ Matchers provided by the `kotest-assertions-core` module.
 | `list.shouldHaveElementAt(index, element)` | Asserts that this list contains the given element at the given position. |
 | `list.shouldStartWith(lst)` | Asserts that this list starts with the elements of the given list, in order. |
 | `list.shouldEndWith(lst)` | Asserts that this list ends with the elements of the given list, in order. |
+| `list.shouldMatchEach(lst)` | TODO. |
+| `list.shouldMatchInOrder(lst)` | TODO. |
+| `list.shouldMatchInOrderSubset(lst)` | TODO. |
 | `value.shouldBeOneOf(collection)` | Asserts that a specific instance is contained in a collection. |
 | `collection.shouldContainAnyOf(collection)` | Asserts that the collection has at least one of the elements in `collection` |
 | `value.shouldBeIn(collection)` | Asserts that an object is contained in collection, checking by value and not by reference. |
